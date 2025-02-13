@@ -1,3 +1,28 @@
-body{
+body {
   background-color: cornflowerblue;
+}
+
+img {
+  height: 50vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 20px;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+}
+
+Homepage.jsx>h1 {
+  color: blueviolet;
 }
